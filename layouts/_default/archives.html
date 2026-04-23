@@ -1,0 +1,44 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+
+{{- /* Yıllara göre grupla */}}
+{{- range $pages.GroupByDate "2006" }}
+<div class="archive-year">
+  <h2 class="archive-year-header">
+    {{ .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
+  </h2>
+
+  {{- /* Aylara göre grupla */}}
+  {{- range .Pages.GroupByDate "01" }}
+  <div class="archive-month">
+    <h3 class="archive-month-header">
+      {{- /* Ay ismini Türkçe yazdırmak için indeksleme yapıyoruz */}}
+      {{- index site.Data.month_names .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
+    </h3>
+    <div class="archive-posts">
+      {{- range .Pages }}
+      <div class="archive-entry">
+        <h3 class="archive-entry-title">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h3>
+        <div class="archive-meta">
+          {{- .Date | time.Format "02 January 2006" }} </div>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+</div>
+{{- end }}
+
+{{- end }}

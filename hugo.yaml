@@ -1,0 +1,139 @@
+baseURL: "https://samettasci.com/" # Burayı kendi domaininle değiştirmeyi unutma
+languageCode: tr-tr
+title: "Blog | Samet Taşcı"
+theme: "PaperMod"
+
+# HATA DÜZELTMESİ: Eski "paginate" yerine yenisi
+pagination:
+  pagerSize: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Samet Taşcı"
+  description: "Siber Güvenlik ve Teknoloji Blogu"
+  keywords: [Siber Güvenlik, Blog, Teknoloji, Network]
+  author: "Samet Taşcı"
+
+  
+  # Varsayılan tema
+  defaultTheme: dark
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true # Kod kopyalama butonu açık olsun
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  ShowToc: true       # İçindekiler tablosunu gösterir
+  TocOpen: true
+  
+  # Yorumlar kapalı (Gerekirse true yapabilirsin)
+  comments: false
+  
+  # Meta verileri gizleme ayarları
+  hidemeta: false
+  hideSummary: false
+  
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+
+  label:
+    text: "Samet Taşcı"
+    icon: 
+    iconHeight: 35
+
+  # --- SEÇENEK 1 AYARLARI ---
+  
+  # Profile Mode KAPALI (Yazıların listelenmesi için)
+  profileMode:
+    enabled: false 
+
+  # Home Info Mode AÇIK (Üstte tanıtım, altta yazılar)
+  homeInfoParams:
+    Title: "Selam, Ben Samet \U0001F44B" # El sallama emojisi
+    Content: |
+      Bilgisayar Mühendisliği Öğrencisi ve Siber Güvenlik Meraklısı. 
+      
+      Burada siber güvenlik yolculuğumu, notlarımı ve projelerimi paylaşıyorum.
+
+  # Sosyal Medya İkonları
+  socialIcons:
+    - name: email
+      url: "mailto:samet.tasci@hotmail.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/samet-tascii/" # Burayı düzenle
+
+
+  # Kapak Resmi Ayarları
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  # Arama Özelliği Ayarları
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+# --- MENÜ AYARLARI ---
+menu:
+  main:
+    - identifier: archives
+      name: Arşiv
+      url: /archives/
+      weight: 5
+
+    - identifier: tags
+      name: Etiketler
+      url: /tags/
+      weight: 10
+    
+    - identifier: about
+      name: Hakkımda
+      url: /posts/ben-samet/
+      weight: 20
+    
+    - identifier: contact
+      name: İletişim
+      url: /contact/
+      weight: 30
+    
+    - identifier: search
+      name: Arama 
+      url: /search/
+      weight: 40
+      # Aşağıdaki satırı ekle (Büyüteç ikonu kodudur)
+      post: '<svg style="margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> '
+
+# Kod Renklendirme Ayarları
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+
+    # 2. ARAMA İÇİN GEREKLİ AYAR (Bunu dosyanın en altına ekleyebilirsin)
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # <-- Bu satır olmazsa arama çalışmaz!
