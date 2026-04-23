@@ -1,4 +1,4 @@
-baseURL: "https://samettasci.com/" # Burayı kendi domaininle değiştirmeyi unutma
+baseURL: "https://blog.samettasci.com/"
 languageCode: tr-tr
 title: "Blog | Samet Taşcı"
 theme: "PaperMod"
