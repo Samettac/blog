@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deneme on Samet Taşcı</title>
+    <link>http://localhost:1313/tags/deneme/</link>
+    <description>Recent content in Deneme on Samet Taşcı</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>tr-tr</language>
+    <lastBuildDate>Sat, 07 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/deneme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deneme</title>
+      <link>http://localhost:1313/posts/deneme/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/deneme/</guid>
+      <description>&lt;h1 id=&#34;deneme&#34;&gt;Deneme&lt;/h1&gt;
+&lt;p&gt;asdfghjkjhgfdsx
+xcgvhklş
+xcgvhnköşi
+dxcvb&lt;/p&gt;
+&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/Pasted%20image%2020260207233356.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
