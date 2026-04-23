@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog | Samet Taşcı</title>
-    <link>http://localhost:1313/</link>
+    <link>https://blog.samettasci.me/</link>
     <description>Recent content on Blog | Samet Taşcı</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>tr-tr</language>
     <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.samettasci.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hakkımda</title>
-      <link>http://localhost:1313/posts/ben-samet/</link>
+      <link>https://blog.samettasci.me/posts/ben-samet/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ben-samet/</guid>
+      <guid>https://blog.samettasci.me/posts/ben-samet/</guid>
       <description>Siber güvenlik yolculuğum, sertifikalarım ve hedeflerim hakkında kısa bir giriş.</description>
     </item>
     <item>
       <title>İletişim</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://blog.samettasci.me/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://blog.samettasci.me/contact/</guid>
       <description>contact</description>
     </item>
   </channel>
