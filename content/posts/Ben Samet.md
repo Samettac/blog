@@ -1,5 +1,5 @@
 ---
-title: "Hakkımda"
+title: "Merhaba! Ben Samet"
 date: 2026-02-10
 draft: false
 summary: "Siber güvenlik yolculuğum, sertifikalarım ve hedeflerim hakkında kısa bir giriş."
@@ -17,14 +17,12 @@ Selamlar, ben **Samet**.
 
 Teknolojiye ve siber güvenliğe meraklı bir bilgisayar mühendisliği öğrencisiyim. Şu anda **Hitit Üniversitesi**'nde 4. sınıf öğrencisi olarak eğitimime devam ediyorum. Aynı zamanda **Anadolu Üniversitesi Yönetim Bilişim Sistemleri** bölümünden mezun oldum.
 
-Siber güvenlik ve Network konularına ilgi duyuyorum ve kendimi bu alanlarda geliştiriyorum.
+Bilgisayar başında vakit geçirmeyi, sistemlerin nasıl çalıştığını ve daha da önemlisi nasıl *güvenli* hale getirilebileceğini araştırmayı seviyorum. Bu merakım beni siber güvenlik dünyasına yönlendirdi. Özellikle **Blue Team (Savunma)** tarafında, **SOC** süreçleri ve ağ güvenliği konularında kendimi geliştiriyorum.
 
 Bu blogda öğrendiklerimi, projelerimi ve siber güvenlik alanındaki notlarımı paylaşacağım. <br>
 
 ## Sertifikalarım
 
-* **Cisco CCNA**
-	* https://cp.certmetrics.com/cisco/en/public/verify/credential/7beecec9686e431abe1d2591be2c4a61
 * **CompTIA Security+ (SY0-701)**
 	* https://cp.certmetrics.com/CompTIA/en/public/verify/credential/MDYRQFGTS2Q1YRBJ
 * **Cisco CyberOps Associate**
