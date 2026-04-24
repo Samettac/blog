@@ -6,8 +6,15 @@
     <description>Recent content in CCNA on Blog | Samet Taşcı</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>tr-tr</language>
-    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.samettasci.me/tags/ccna/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protokoller ve Modeller</title>
+      <link>https://blog.samettasci.me/posts/b%C3%B6l%C3%BCm-2---protokoller-ve-modeller/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.samettasci.me/posts/b%C3%B6l%C3%BCm-2---protokoller-ve-modeller/</guid>
+      <description>Protokoller, OSI ve TCP/IP Modelleri.</description>
+    </item>
     <item>
       <title>Bölüm 1 - Günümüzde Ağlar</title>
       <link>https://blog.samettasci.me/posts/b%C3%B6l%C3%BCm-1---g%C3%BCn%C3%BCm%C3%BCzde-a%C4%9Flar/</link>

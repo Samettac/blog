@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.samettasci.me/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.samettasci.me/tags/ccna/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.samettasci.me/tags/encapsulation/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.samettasci.me/tags/osi/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.samettasci.me/posts/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.samettasci.me/tags/protokol/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.samettasci.me/posts/b%C3%B6l%C3%BCm-2---protokoller-ve-modeller/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.samettasci.me/tags/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.samettasci.me/tags/tcp-ip/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.samettasci.me/tags/%23network/</loc>
     <lastmod>2026-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.samettasci.me/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.samettasci.me/posts/b%C3%B6l%C3%BCm-1---g%C3%BCn%C3%BCm%C3%BCzde-a%C4%9Flar/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.samettasci.me/tags/ccna/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.samettasci.me/posts/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.samettasci.me/tags/</loc>
     <lastmod>2026-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.samettasci.me/tags/hakk%C4%B1mda/</loc>
