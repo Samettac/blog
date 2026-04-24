@@ -10,6 +10,35 @@ static_images_dir = r"C:\Users\samet\OneDrive\Belgeler\SametBlog\static\images"
 # Create static images directory if it doesn't exist
 os.makedirs(static_images_dir, exist_ok=True)
 
+# --- CALLOUT DÖNÜŞTÜRÜCÜ FONKSİYON ---
+def format_callout(match):
+    ctype = match.group('type').lower()
+    title = match.group('title').strip()
+    
+    # Obsidian türlerine göre emojiler
+    icons = {
+        'note': '📝', 'info': '💡', 'warning': '⚠️',
+        'danger': '🛑', 'error': '🛑', 'tip': '🎯',
+        'success': '✅', 'question': '❓', 'example': '📋',
+        'quote': '💬'
+    }
+    
+    # Obsidian türlerinin Türkçe karşılıkları
+    translations = {
+        'note': 'NOT', 'info': 'BİLGİ', 'warning': 'UYARI',
+        'danger': 'TEHLİKE', 'error': 'HATA', 'tip': 'İPUCU',
+        'success': 'BAŞARILI', 'question': 'SORU', 'example': 'ÖRNEK',
+        'quote': 'ALINTI'
+    }
+    
+    icon = icons.get(ctype, '📌') # Bilinmeyen bir türse raptiye koysun
+    
+    # Eğer Obsidian'da özel bir başlık yazdıysan (Örn: > [!warning] Dikkat Edin) onu kullanır.
+    # Özel başlık yoksa varsayılan Türkçe çeviriyi kullanır.
+    display_title = title if title else translations.get(ctype, ctype.upper())
+    
+    return f"> {icon} **{display_title}**"
+
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
     if filename.endswith(".md"):
@@ -18,31 +47,29 @@ for filename in os.listdir(posts_dir):
         with open(filepath, "r", encoding="utf-8") as file:
             content = file.read()
         
-        # Step 2: Find all image links (handles ![[image.png]], [[image.png]], and sizes like |492)
-        # Regex captures the filename in group 1, and matches the full string (including sizes) to replace it
+        # --- IMAGE PROCESSING (Önceki Ayarlar - Dokunulmadı) ---
         pattern = re.compile(r'!*\[\[(.*?\.(?:png|jpg|jpeg|gif|webp))(?:\|.*?)?\]\]', re.IGNORECASE)
-        
-        # Step 3: Iterate over matches and replace
         matches = list(pattern.finditer(content))
         
         for match in matches:
-            full_match = match.group(0)       # e.g., ![[Pasted image 20260424.png|492]]
-            image_filename = match.group(1)   # e.g., Pasted image 20260424.png
+            full_match = match.group(0)
+            image_filename = match.group(1)
             
-            # Prepare the Markdown-compatible link with %20 replacing spaces
             safe_url = image_filename.replace(' ', '%20')
             markdown_image = f"![{image_filename}](/images/{safe_url})"
-            
-            # Replace the old Obsidian link with the new standard Hugo link
             content = content.replace(full_match, markdown_image)
             
-            # Step 4: Copy the image to the Hugo static/images directory if it exists
             image_source = os.path.join(attachments_dir, image_filename)
             if os.path.exists(image_source):
                 shutil.copy(image_source, static_images_dir)
+
+        # --- CALLOUT / ADMONITION PROCESSING (YENİ) ---
+        # "> [!note]" gibi satırları bulup çevirir
+        callout_pattern = re.compile(r'^>\s*\[!(?P<type>[a-zA-Z]+)\](?P<title>.*)$', re.MULTILINE)
+        content = callout_pattern.sub(format_callout, content)
 
         # Step 5: Write the updated content back to the markdown file
         with open(filepath, "w", encoding="utf-8") as file:
             file.write(content)
 
-print("Markdown files processed and images copied successfully. Regex matched all parameters!")
+print("Markdown files processed: Images and Callouts (Admonitions) formatted successfully!")

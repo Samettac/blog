@@ -52,7 +52,7 @@ Ağ haberleşmesinde protokoller aşağıdaki ihtiyaçlara çözüm sağlar:
 	* Örneğin bir radyo yayınını sadece dinlemek isteyen bilgisayarlara göndermek.
 * **Broadcast (Genel Yayın):** Aynı yerel ağdaki herkese iletimdir. 
 
-> [!note]
+> 📝 **NOT**
 > 
 *Router*, broadcast trafiğini geçirmez.
 
@@ -115,7 +115,7 @@ Protokollerin sınırları bellidir. Genel olarak ağ iletişimini modellediğin
 	* Bitlerin iletimi.
 
 
-> [!tip]
+> 🎯 **İPUCU**
 > 
 Akılda tutmak için: **Please Do Not Throw Sausage Pizza Away**
 

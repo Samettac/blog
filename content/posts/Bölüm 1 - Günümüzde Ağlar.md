@@ -35,7 +35,7 @@ Temel amaç, bir tarafın hizmet almak, diğer tarafın ise hizmet vermek isteme
 - **Server (Sunucu):** Hizmet veren cihaz.
 - **Client (İstemci):** Hizmet alan cihaz.
 
-> [!Not]
+> 📌 **NOT**
 > 
 Eskiden kurumlarda son kullanıcıların hard diski bulunmadığı için veriler merkezi bir "Mainframe" sunucusuna yazılırdı.
 
@@ -68,7 +68,7 @@ Networklerin kurulma amacı olan bu cihazlar hem hizmet alabilir hem de verebili
 - Uç cihazlar, **NIC (Network Interface Card)** sayesinde network'e dahil olur.
 - Uç cihazın arkasında (genellikle) bir başka cihaz daha yoktur. 
 
-> [!note]
+> 📝 **NOT**
 > 
 End device **sadece client** demek **değildir**.
 
@@ -118,7 +118,7 @@ Ağlar coğrafi büyüklüklerine ve sahiplik durumlarına göre ayrılır. En t
 - **Wide Area Network (WAN):** 
 	- LAN'ları servis sağlayıcılar aracılığıyla birbirine bağlayan geniş ağlardır.
 
-> [!note]
+> 📝 **NOT**
 > 
 Eğer aradaki arazinin tapusu size aitse mesafe ne olursa olsun bu bir LAN'dır; ancak kamusal alan geçiliyorsa (servis sağlayıcı gerekiyorsa) WAN olur.
 
