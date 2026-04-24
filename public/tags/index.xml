@@ -6,20 +6,48 @@
     <description>Recent content in Tags on Blog | Samet Taşcı</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>tr-tr</language>
-    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.samettasci.me/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>#Network</title>
-      <link>https://blog.samettasci.me/tags/%23network/</link>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://blog.samettasci.me/tags/%23network/</guid>
-      <description></description>
-    </item>
     <item>
       <title>CCNA</title>
       <link>https://blog.samettasci.me/tags/ccna/</link>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://blog.samettasci.me/tags/ccna/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Encapsulation</title>
+      <link>https://blog.samettasci.me/tags/encapsulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.samettasci.me/tags/encapsulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Osi</title>
+      <link>https://blog.samettasci.me/tags/osi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.samettasci.me/tags/osi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Protokol</title>
+      <link>https://blog.samettasci.me/tags/protokol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.samettasci.me/tags/protokol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tcp-Ip</title>
+      <link>https://blog.samettasci.me/tags/tcp-ip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.samettasci.me/tags/tcp-ip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>#Network</title>
+      <link>https://blog.samettasci.me/tags/%23network/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.samettasci.me/tags/%23network/</guid>
       <description></description>
     </item>
     <item>

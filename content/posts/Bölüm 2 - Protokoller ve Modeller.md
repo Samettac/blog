@@ -54,7 +54,7 @@ Ağ haberleşmesinde protokoller aşağıdaki ihtiyaçlara çözüm sağlar:
 
 > 📝 **NOT**
 > 
-*Router*, broadcast trafiğini geçirmez.
+> **Router**, broadcast trafiğini geçirmez.
 
 
 ## Protokoller
@@ -117,7 +117,7 @@ Protokollerin sınırları bellidir. Genel olarak ağ iletişimini modellediğin
 
 > 🎯 **İPUCU**
 > 
-Akılda tutmak için: **Please Do Not Throw Sausage Pizza Away**
+> Akılda tutmak için: **Please Do Not Throw Sausage Pizza Away**
 
 ![Pasted image 20260425002242.png](/images/Pasted%20image%2020260425002242.png)
 **Encapsulation:**

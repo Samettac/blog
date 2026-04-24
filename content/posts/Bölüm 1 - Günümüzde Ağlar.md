@@ -37,7 +37,7 @@ Temel amaç, bir tarafın hizmet almak, diğer tarafın ise hizmet vermek isteme
 
 > 📌 **NOT**
 > 
-Eskiden kurumlarda son kullanıcıların hard diski bulunmadığı için veriler merkezi bir "Mainframe" sunucusuna yazılırdı.
+>Eskiden kurumlarda son kullanıcıların hard diski bulunmadığı için veriler merkezi bir "Mainframe" sunucusuna yazılırdı.
 
 ### İletişim Modelleri
 
@@ -70,7 +70,7 @@ Networklerin kurulma amacı olan bu cihazlar hem hizmet alabilir hem de verebili
 
 > 📝 **NOT**
 > 
-End device **sadece client** demek **değildir**.
+> End device **sadece client** demek **değildir**.
 
 ### 2. Intermediary Network Devices (Ara Ağ Cihazları)
 Uç cihazları birbirine bağlayan ve veriyi hedefe taşıyan cihazlardır. En temel 2 cihaz: router ve switch'dir. Diğer cihazlar, bunların birer varyantıdır.
@@ -120,7 +120,7 @@ Ağlar coğrafi büyüklüklerine ve sahiplik durumlarına göre ayrılır. En t
 
 > 📝 **NOT**
 > 
-Eğer aradaki arazinin tapusu size aitse mesafe ne olursa olsun bu bir LAN'dır; ancak kamusal alan geçiliyorsa (servis sağlayıcı gerekiyorsa) WAN olur.
+> Eğer aradaki arazinin tapusu size aitse mesafe ne olursa olsun bu bir LAN'dır; ancak kamusal alan geçiliyorsa (servis sağlayıcı gerekiyorsa) WAN olur.
 
 
 ### İnternet, İntranet ve Extranet
@@ -136,17 +136,19 @@ Eğer aradaki arazinin tapusu size aitse mesafe ne olursa olsun bu bir LAN'dır;
 ## Güvenilir Bir Ağın Temelleri (Ekstra Detaylar)
 
 Ağ tasarımında profesyonel standartları sağlamak için şu dört özellik kritik önem taşır:
+1. **Hata Toleransı (Fault Tolerance):** 
+	- Bir bileşen arızalandığında ağın çalışmaya devam edebilmesi (Yedeklilik).
+2. **Ölçeklenebilirlik (Scalability):** 
+	- Mevcut performansı bozmadan ağa yeni kullanıcı ve(ya) cihaz eklenebilmesi.
+3. **Hizmet Kalitesi (QoS):** 
+	- Ses ve video gibi gecikmeye duyarlı paketlerin önceliklendirilmesi.
+4. **Güvenlik (Security):** 
+	- Verinin Gizliliği (Confidentiality), Bütünlüğü (Integrity) ve Erişilebilirliğinin (Availability) korunması (CIA Triad).
 
-1. **Hata Toleransı (Fault Tolerance):** Bir bileşen arızalandığında ağın çalışmaya devam edebilmesi (Yedeklilik).
-    
-2. **Ölçeklenebilirlik (Scalability):** Mevcut performansı bozmadan ağa yeni kullanıcı ve(ya) cihaz eklenebilmesi.
-    
-3. **Hizmet Kalitesi (QoS):** Ses ve video gibi gecikmeye duyarlı paketlerin önceliklendirilmesi.
-    
-4. **Güvenlik (Security):** Verinin Gizliliği (Confidentiality), Bütünlüğü (Integrity) ve Erişilebilirliğinin (Availability) korunması (CIA Triad).
 
-
-
+## Kaynaklar
+- Cisco Netacad
+- Ağ Yöneticileri Derneği (**AYD**)
 
 
 
