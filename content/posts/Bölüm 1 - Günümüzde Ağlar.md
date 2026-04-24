@@ -17,7 +17,7 @@ cover:
 ## Ağın Gelişimi
 
 Dünyamızdaki dijital dönüşüm, ağ teknolojilerinin evrimiyle doğrudan ilişkilidir:
-![[Pasted image 20260424185907.png|401]]
+![Pasted image 20260424185907.png](/images/Pasted%20image%2020260424185907.png)
 **Kaynak:** https://www.researchgate.net/publication/279068905_Next_Generation_M2M_Cellular_Networks_Challenges_and_Practical_Considerations
 
 1. **Web 1.0 (HTTP/WWW):** Statik içerik dönemi.
@@ -43,12 +43,12 @@ Eskiden kurumlarda son kullanıcıların hard diski bulunmadığı için veriler
 
 >Yukarda bahsettiğim model: Client-Server (istemci-sunucu) modelidir.
 
-![[Pasted image 20260424215431.png|492]]
+![Pasted image 20260424215431.png](/images/Pasted%20image%2020260424215431.png)
 **Kaynak:** https://systemdesignschool.io/blog/peer-to-peer-architecture
 
 **Peer-to-Peer (P2P):** Cihazların hem istemci hem de sunucu görevi görmesidir. Kurumsal yapılarda merkezi yönetim olmadığı için tercih edilmez ve güvenlik riskleri barındırabilir.
 - Örnek: **Torrent**
-- ![[Pasted image 20260424214711.png|467]]
+- ![Pasted image 20260424214711.png](/images/Pasted%20image%2020260424214711.png)
 
 | **Avatajları**                                                               | **Dezavantajları**            |
 | ---------------------------------------------------------------------------- | ----------------------------- |
@@ -76,28 +76,28 @@ End device **sadece client** demek **değildir**.
 Uç cihazları birbirine bağlayan ve veriyi hedefe taşıyan cihazlardır. En temel 2 cihaz: router ve switch'dir. Diğer cihazlar, bunların birer varyantıdır.
 
 1. **Switch:** 
-	- ![[Pasted image 20260226144708.png|234]]
-	- ![[Pasted image 20260226145029.png|373]]
+	- ![Pasted image 20260226144708.png](/images/Pasted%20image%2020260226144708.png)
+	- ![Pasted image 20260226145029.png](/images/Pasted%20image%2020260226145029.png)
 	- Aynı lokasyondaki cihazları kablolu olarak networke bağlar. 
 	- Üzerinde bir sürü giriş vardır. Bu girişlere: **interface** ya da **port** denir.
 	- Switch'in ilkeli hub'dır. Günümüzde kullanılmaz.
 	- Dikdörtgen içinde iki ok ile sembolize edilir.
 
 2. **Access Point:** 
-	- !![Image Description](/images/Pasted%20image%2020260424212516.png)
+	- ![Pasted image 20260424212516.png](/images/Pasted%20image%2020260424212516.png)
 	- Kablosuz cihazları bağlar ve sinyali kablolu ağa aktarır.
 
 3. **Router:** 
-	- !![Image Description](/images/Pasted%20image%2020260226145140.png)
+	- ![Pasted image 20260226145140.png](/images/Pasted%20image%2020260226145140.png)
 	- Farklı networkleri birbirine bağlar ve en iyi yol seçimini yapar. 
 	- Daire içinde çapraz ok (X) ile sembolize edilir.
 
 4. **Firewall (Güvenlik Duvarı):** 
-	- !![Image Description](/images/Pasted%20image%2020260226145239.png)
+	- ![Pasted image 20260226145239.png](/images/Pasted%20image%2020260226145239.png)
 	- Temelde Router'ın Güvenlik özellikleri artırılmış hâlidir. Paketleri güvenlik kriterlerine göre filtreler.
 
 5. **Multilayer Switch (L3 Switch):** 
-	- !![Image Description](/images/Pasted%20image%2020260226145304.png)
+	- ![Pasted image 20260226145304.png](/images/Pasted%20image%2020260226145304.png)
 	- Hem Switch hem Router özelliklerini barındıran cihazdır.
 
 ### 3. Ağ Ortamı (İletişim Medyası)
@@ -112,7 +112,7 @@ Verinin iletildiği fiziksel ortamdır.
 Ağlar coğrafi büyüklüklerine ve sahiplik durumlarına göre ayrılır. En temelde 2 çeşittir: **LAN** ve **WAN**.
 
 ### LAN ve WAN
-![[Pasted image 20260424190042.png|498]]
+![Pasted image 20260424190042.png](/images/Pasted%20image%2020260424190042.png)
 - **Local Area Network (LAN):** 
 	- Aynı lokasyondaki (kurum, ev, kampüs) cihazların oluşturduğu ağdır.
 - **Wide Area Network (WAN):** 
@@ -125,9 +125,9 @@ Eğer aradaki arazinin tapusu size aitse mesafe ne olursa olsun bu bir LAN'dır;
 
 ### İnternet, İntranet ve Extranet
 
-![[Pasted image 20260424190202.png|362]]
+![Pasted image 20260424190202.png](/images/Pasted%20image%2020260424190202.png)
 - **Internet:** Küresel LAN ve WAN koleksiyonudur.
-	- ![[Pasted image 20260424190128.png|353]]
+	- ![Pasted image 20260424190128.png](/images/Pasted%20image%2020260424190128.png)
 - **Intranet:** Sadece kurum içine açık, internet erişimi olmayan özel ağ.
 	- Örneğin, TSK'nın iç ağı **KARANET**.
 - **Extranet:** Kurum içi ağın belirli iş ortaklarına özel olarak açılmış hali.

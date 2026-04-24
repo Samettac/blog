@@ -46,7 +46,7 @@ Ağ haberleşmesinde protokoller aşağıdaki ihtiyaçlara çözüm sağlar:
 		* Örneğin: CSMA/CD, CSMA/CA
 
 ### Mesaj Teslim Seçenekleri
-![[Pasted image 20260425005413.png|496]]
+![Pasted image 20260425005413.png](/images/Pasted%20image%2020260425005413.png)
 * **Unicast (Tekil Yayın):** Birebir iletişimdir (Örn: A cihazından B cihazına).
 * **Multicast (Çoklu Yayın):** Belirli bir gruba iletimdir. 
 	* Örneğin bir radyo yayınını sadece dinlemek isteyen bilgisayarlara göndermek.
@@ -119,7 +119,7 @@ Protokollerin sınırları bellidir. Genel olarak ağ iletişimini modellediğin
 > 
 Akılda tutmak için: **Please Do Not Throw Sausage Pizza Away**
 
-!![Image Description](/images/Pasted%20image%2020260425002242.png)
+![Pasted image 20260425002242.png](/images/Pasted%20image%2020260425002242.png)
 **Encapsulation:**
 * L7-6-5'te, uygulama datası oluşur.
 * L4 datayı parçalara böler, Segment Header ekler.
@@ -132,7 +132,7 @@ Akılda tutmak için: **Please Do Not Throw Sausage Pizza Away**
 - L4'ten sonra ilgili port numarasından uygulama katmanına çıkar
 
 #### Encapsulation Örnekleri
-!![Image Description](/images/Pasted%20image%2020260425005030.png)
+![Pasted image 20260425005030.png](/images/Pasted%20image%2020260425005030.png)
 * **İç Ağda A'dan B'ye Paket Gönderildiğinde:** 
 	* İlgili başlıklara ek olarak: 
 		- s.port, d.port, sec no, ack no eklenir.
@@ -154,7 +154,7 @@ Akılda tutmak için: **Please Do Not Throw Sausage Pizza Away**
 ### TCP/IP Modeli
 Günümüzde internet haberleşmesinde kullanılan modeldir. 
 Katman numaraları kullanılmaz.
-![[Pasted image 20260425004535.png|520]]
+![Pasted image 20260425004535.png](/images/Pasted%20image%2020260425004535.png)
 1. **Application:** 
 	- OSI'nin L7, L6, L5 katmanlarını tek katmanda birleştirir.
 2. **Transport:** TCP veya UDP protokolleri kullanılır.
@@ -166,7 +166,7 @@ Katman numaraları kullanılmaz.
 	- Ağ ortamına erişimi sağlar (Ethernet, WLAN).
 
 ### OSI ve TCP/IP Karşılaştırmalı Görsel
-![[Pasted image 20260425004429.png|438]]
+![Pasted image 20260425004429.png](/images/Pasted%20image%2020260425004429.png)
 
 ## Veri Kapsülleme Detayları
 * **Segmentation (Bölümleme):** 
@@ -192,7 +192,7 @@ Açık standartlar; birlikte çalışabilirliği, rekabeti ve yeniliği teşvik 
 
 ### İnternet Standartları
 
-![[Pasted image 20260425000427.png|445]]
+![Pasted image 20260425000427.png](/images/Pasted%20image%2020260425000427.png)
 * **ISOC (Internet Society):** 
 	* İnternetin açık gelişimini destekler.
 * **IAB (Internet Architecture Board):** 
@@ -204,7 +204,7 @@ Açık standartlar; birlikte çalışabilirliği, rekabeti ve yeniliği teşvik 
 * **IRTF (Internet Research Task Force):** 
 	* İnternet ve TCP/IP protokolleri ile ilgili uzun vadeli araştırmalara odaklanır.
 
-![[Pasted image 20260425000524.png|446]]
+![Pasted image 20260425000524.png](/images/Pasted%20image%2020260425000524.png)
 * **ICANN (Internet Corporation for Assigned Names and Numbers):** 
 	* IP adresi, port numaraları tahsisini ve domain name yönetimini koordine eder.
 * **IANA (Internet Assigned Numbers Authority):** 
