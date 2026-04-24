@@ -1,5 +1,5 @@
 ---
-title: Protokoller ve Modeller
+title: Bölüm 2 - Protokoller ve Modeller
 date: 2026-04-25
 draft: false
 summary: Protokoller, OSI ve TCP/IP Modelleri.
