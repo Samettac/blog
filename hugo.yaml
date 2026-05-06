@@ -65,7 +65,7 @@ params:
 
   # Home Info Mode AÇIK (Üstte tanıtım, altta yazılar)
   homeInfoParams:
-    Title: "Selam, Ben Samet \U0001F44B" # El sallama emojisi
+    Title: "Samet Taşcı" # El sallama emojisi
     Content: |
       Bilgisayar Mühendisliği Öğrencisi ve Siber Güvenlik Meraklısı. 
       

@@ -1,10 +1,9 @@
 /* --- GRUVBOX RENK PALETİ (OBSIDIAN STYLE) --- */
 :root {
-    --dark0-hard:      #1d2021;
-    --dark0:           #282828;
     --light0:          #fbf1c7;
     --light0-hard:     #f9f5d7;
     --light3:          #bdae93;
+    --light4:          #a89984;
     --bright-red:      #fb4934;
     --bright-green:    #b8bb26;
     --bright-yellow:   #fabd2f;
@@ -19,9 +18,9 @@
     --neutral-blue:    #458588;
 }
 
-/* --- GENEL TEMA VE ARKA PLAN --- */
+/* --- GENEL TEMA YAZI RENGİ --- */
 body.dark {
-    background: var(--dark0-hard) !important;
+    /* Arka plan silindi, temanın kendi orijinal arka planı kullanılacak */
     color: var(--light0) !important;
 }
 
@@ -32,18 +31,75 @@ body.dark {
 
 .breadcrumbs {
     color: #928374 !important;
-} /* <-- BURADAKİ EKSİK PARANTEZİ KAPATTIM */
+} 
 
-/* --- BAŞLIKLAR (Obsidian Hiyerarşisi) --- */
+/* --- ANA SAYFA DÜZENLEMELERİ (HOME INFO & POST CARDS) --- */
 
-/* Ana Sayfa Başlıkları ve Post Başlığı (H1 seviyesi - Gruvbox Kırmızı) */
-.post-title, 
-.first-entry .entry-header h2 {
+/* "Samet Taşcı" Profil Başlığı Kesin Çözüm (Gruvbox Turuncu) */
+.home-info .entry-header h1,
+.first-entry .entry-header h1,
+.profile-info h1 {
+    color: var(--bright-orange) !important; 
+    font-size: 2.5rem !important;
+    margin-bottom: 15px !important;
+}
+
+/* Ana Sayfadaki Tanıtım Yazısı (Gruvbox Krem) */
+.home-info .entry-content {
+    color: var(--light0) !important;
+    font-size: 1.1rem !important;
+    line-height: 1.7 !important;
+}
+
+/* Sosyal Medya İkonları (Gruvbox Turuncu) */
+.social-icons a {
+    color: var(--bright-orange) !important;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: var(--bright-yellow) !important;
+    transform: scale(1.2);
+}
+
+/* Yazı Kartlarının Başlıkları (Gruvbox Kırmızı) */
+.entry-header h2 {
+    color: var(--bright-red) !important;
+}
+
+/* Yazı Özetleri (Gruvbox Gri) */
+.entry-content p {
+    color: var(--light4) !important;
+}
+
+/* Yazı Kartı Altındaki Bilgiler (Tarih, Dakika vb.) */
+.entry-footer {
+    color: var(--light3) !important;
+}
+/* Yazı Kartlarının Arka Planı ve Vurgusu (Profil kısmını hariç tuttuk) */
+.post-entry {
+    background: transparent !important; 
+    border: 1px solid transparent !important;
+    transition: border 0.3s ease;
+}
+
+.post-entry:hover {
+    border-color: var(--bright-orange) !important; /* Sadece alt kısımdaki yazılar parlar */
+}
+
+/* Profil/Giriş kısmının çerçevesini tamamen yok et */
+.first-entry, .home-info {
+    border: none !important;
+    background: transparent !important;
+}
+
+/* --- YAZI İÇİ BAŞLIKLAR (Obsidian Hiyerarşisi) --- */
+
+.post-title {
     color: var(--bright-red) !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Yazı İçindeki H1 (#) */
 .post-content h1 { 
     color: var(--neutral-red) !important; 
     margin-top: 96px !important;
@@ -51,7 +107,6 @@ body.dark {
     font-weight: 800 !important;
 }
 
-/* Yazı İçindeki H2 (##) - Gruvbox Turuncu */
 .post-content h2 { 
     color: var(--neutral-orange) !important; 
     margin-top: 96px !important;
@@ -61,7 +116,6 @@ body.dark {
     font-weight: 700 !important;
 }
 
-/* Yazı İçindeki H3 (###) - Gruvbox Sarı */
 .post-content h3 { 
     color: var(--neutral-yellow) !important; 
     margin-top: 64px !important;
@@ -69,7 +123,6 @@ body.dark {
     font-weight: 700 !important;
 }
 
-/* Yazı İçindeki H4 (####) - Gruvbox Yeşil */
 .post-content h4 { 
     color: var(--neutral-green) !important; 
     margin-top: 64px !important;
@@ -98,7 +151,6 @@ body.dark {
     margin-left: 20px !important;
 }
 
-/* Başlıktan sonra listeyi yukarı çek */
 .post-content h1 + ul, .post-content h2 + ul, .post-content h3 + ul,
 .post-content h4 + ul {
     margin-top: -10px !important;
@@ -106,7 +158,7 @@ body.dark {
 
 /* --- KOD BLOKLARI --- */
 .post-content pre code {
-    background-color: #282828 !important;
+    background-color: #282828 !important; /* Kod bloklarının arka planı kod okumak için siyah kalmalı */
     color: var(--bright-blue) !important;
     border: 2px dashed #504945 !important;
     padding: 20px !important;
@@ -122,7 +174,6 @@ body.dark {
     color: var(--bright-orange) !important;
 }
 
-/* Arama İkonu ve Yazısı */
 .menu a[href*="search"] svg {
     margin-left: 12px !important;
     stroke: var(--bright-yellow) !important;
@@ -132,52 +183,4 @@ body.dark {
 strong {
     color: var(--neutral-yellow) !important;
     font-weight: 600 !important;
-}
-
-/* --- ANA SAYFA (HOME INFO) DÜZENLEMELERİ --- */
-
-/* "Selam, Ben Samet" Başlığı (Gruvbox Aqua/Mavi) */
-.home-info h1 {
-    color: var(--bright-aqua) !important;
-    font-size: 2.5rem !important;
-    margin-bottom: 15px !important;
-}
-
-/* Ana Sayfadaki Tanıtım Yazısı (Gruvbox Krem) */
-.home-info .entry-content {
-    color: var(--light1) !important;
-    font-size: 1.1rem !important;
-    line-height: 1.7 !important;
-}
-
-/* Sosyal Medya İkonları (Gruvbox Turuncu) */
-.social-icons a {
-    color: var(--bright-orange) !important;
-    transition: transform 0.2s ease-in-out;
-}
-
-.social-icons a:hover {
-    color: var(--bright-yellow) !important;
-    transform: scale(1.2); /* Üzerine gelince hafif büyüsün */
-}
-
-/* --- YAZI KARTLARI (POST CARDS) --- */
-
-/* Yazı Kartlarının Başlıkları (Gruvbox Kırmızı) */
-.entry-header h2 {
-    color: var(--bright-red) !important;
-}
-
-/* Yazı Özetleri (Gruvbox Gri) */
-.entry-content p {
-    color: var(--light4) !important;
-}
-
-/* Yazı Kartı Altındaki Bilgiler (Tarih, Dakika vb.) */
-.entry-footer {
-    color: var(--light3) !important;
-}
-
-.post-entry:hover {
-    border-color: var(--bright-orange) !important; /* Üzerine gelince çerçeve parlasın */
 }
