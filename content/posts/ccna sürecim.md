@@ -23,7 +23,7 @@ O yüzden bende kendi çalışma sürecimi, neler yaptığımı ve hangi kaynakl
 Sürece geçmeden önce nasıl bir temelle çalışmaya başladım kısaca bahsedeyim. Bilgisayar Mühendisliği okuyorum. CCNA serüvenine atılmadan önce **CompTIA Security+** ve **Cisco CyberOps** sertifikalarını da almıştım. Yani IT dünyasına, siber güvenliğe ve temel network kavramlarına tamamen sıfır değildim. 
 Ayrıca Netacad üzerinden 3 kurluk CCNA eğitiminin ilk kurunu Akbank Siber Güvenlik Akademisinde daha önce almıştım. Ama daha ileri konular hakkında ve herhangi bir config yapma bilgim yoktu.
 
-**Hakkımda** daha fazlası için [BU](https://blog.samettasci.me/posts/ben-samet/) yazıyı okuyabilirsiniz.
+**Hakkımda** daha fazlası için [BU](/posts/ben-samet/) yazıyı okuyabilirsiniz.
 
 
 ## Kullandığım Kaynaklar
@@ -77,7 +77,7 @@ Toplam 68 gün tam 179 saat çalışmışım. Araya üniversite finallerinin fal
 Ancak en yüksek verimi aldığım dönem Mart ayı ve sonrasıydı. Bu dönemde çoğunlukla günlük yaklaşık 3 saat çalıştım. Bu şekilde neredeyse her gün 1 konuyu eriterek, sınava son 2 hafta kala tüm konuları bitirmeyi başardım.
 
 
-## Son 2 Hafta: Soru Çözümü ve Taktikler
+## Son 2 Hafta: Soru Çözümü
 
 Konular bitmeden 3 hafta sonraya sınav gününü almıştım. Konular bittikten sonraki 2 hafta sınav üzerine çalıştım. 
 Bu aşamada kullandığım kaynaklar:
@@ -85,10 +85,11 @@ Bu aşamada kullandığım kaynaklar:
 2. [LorenKociko/CCNA-Practice](https://github.com/LorenKociko/CCNA-Practice): Bu kaynak, netacad'daki soruları derleyip hem sınav simülasyonuna hem de normal çalışmaya izin veriyor. Sadece son 2 hafta değil, aslında eğitimdeki her kur bittikçe bu repodaki soruları çözerek ilerledim ve son haftalarda tekrar üzerinden geçtim.
 		![](/images/Pasted%20image%2020260506143345.png)
 3. Son 3 gün ise [examprepper](https://www.examprepper.co/exam/297/1) üzerinden çıkmış dump soruları çözdüm. Bu site examtopics gibi paralı vermiyor soruları. Ama pdf indirmek ücretli.
----
+
 
 ## Sonuç
 
 Umarım paylaştığım bu çalışma rutini, istatistikler ve kaynaklar kendi yol haritanızı çizerken size faydalı olur. Sınava hazırlanan herkese şimdiden kolaylıklar ve başarılar diliyorum.
 
 Yazıda da bahsettiğim gibi, bir sonraki gönderimde süreç boyunca çıkardığım detaylı CCNA ders notlarımı paylaşıyor olacağım. Takipte kalın, görüşmek üzere.
+
