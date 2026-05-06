@@ -17,17 +17,22 @@ Selamlar, ben **Samet**.
 
 Teknolojiye ve siber güvenliğe meraklı bir bilgisayar mühendisliği öğrencisiyim. Şu anda **Hitit Üniversitesi**'nde 4. sınıf öğrencisi olarak eğitimime devam ediyorum. Aynı zamanda **Anadolu Üniversitesi Yönetim Bilişim Sistemleri** bölümünden mezun oldum.
 
-Bilgisayar başında vakit geçirmeyi, sistemlerin nasıl çalıştığını ve daha da önemlisi nasıl *güvenli* hale getirilebileceğini araştırmayı seviyorum. Bu merakım beni siber güvenlik dünyasına yönlendirdi. Özellikle **Blue Team (Savunma)** tarafında, **SOC** süreçleri ve ağ güvenliği konularında kendimi geliştiriyorum.
+Bilgisayar başında vakit geçirmeyi, sistemlerin nasıl çalıştığını ve daha da önemlisi nasıl *güvenli* hale getirilebileceğini araştırmayı seviyorum. Bu merakım beni siber güvenlik dünyasına yönlendirdi. Özellikle **Blue Team (Savunma)** tarafına ve **ağ güvenliği** konularında kendimi geliştiriyorum.
 
 Bu blogda öğrendiklerimi, projelerimi ve siber güvenlik alanındaki notlarımı paylaşacağım. <br>
 
 ## Sertifikalarım
 
-* **CompTIA Security+ (SY0-701)**
-	* https://cp.certmetrics.com/CompTIA/en/public/verify/credential/MDYRQFGTS2Q1YRBJ
-* **Cisco CyberOps Associate**
-	* https://cp.certmetrics.com/cisco/en/public/verify/credential/adfddb4355974998bbff28809c7b1ac7
+### Cisco Certified Network Associate (CCNA)
+![](Pasted%20image%2020260506144850.png)
+- https://cp.certmetrics.com/cisco/en/public/verify/credential/7beecec9686e431abe1d2591be2c4a61
 
+### Cisco Network Associate Cybersecurity (Eski adı: CyberOps Associate)
+![](Pasted%20image%2020260506145351.png)
+* https://cp.certmetrics.com/cisco/en/public/verify/credential/adfddb4355974998bbff28809c7b1ac7
+### CompTIA Security+ (SY0-701)
+![](Pasted%20image%2020260506145430.png)
+* https://cp.certmetrics.com/CompTIA/en/public/verify/credential/MDYRQFGTS2Q1YRBJ
 ## Katıldığım Teknik Eğitimler
 
 * **CCNA Network Eğitimi** – Ağ Yöneticileri Derneği (Eylül 2024 – Şubat 2025)

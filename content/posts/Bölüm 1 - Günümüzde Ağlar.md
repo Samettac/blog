@@ -1,7 +1,7 @@
 ---
 title: Bölüm 1 - Günümüzde Ağlar
 date: 2026-04-24
-draft: false
+draft: true
 summary: günümüzdeki ağ yapıları, modelleri, cihazları hakkında.
 tags:
   - CCNA
