@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Blog | Samet Taşcı</title>
-    <link>https://blog.samettasci.me/posts/</link>
-    <description>Recent content in Posts on Blog | Samet Taşcı</description>
+    <title>Network on Blog | Samet Taşcı</title>
+    <link>https://blog.samettasci.me/tags/network/</link>
+    <description>Recent content in Network on Blog | Samet Taşcı</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>tr-tr</language>
     <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.samettasci.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.samettasci.me/tags/network/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCNA Serüvenim ve Kaynak Tavsiyeleri</title>
       <link>https://blog.samettasci.me/posts/ccna-s%C3%BCrecim/</link>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
       <guid>https://blog.samettasci.me/posts/ccna-s%C3%BCrecim/</guid>
       <description>CCNA Sertifikasını Nasıl Aldım? | Çalışma Serüvenim ve Kaynak Tavsiyeleri</description>
-    </item>
-    <item>
-      <title>Merhaba! Ben Samet</title>
-      <link>https://blog.samettasci.me/posts/ben-samet/</link>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://blog.samettasci.me/posts/ben-samet/</guid>
-      <description>Siber güvenlik yolculuğum, sertifikalarım ve hedeflerim hakkında kısa bir giriş.</description>
     </item>
   </channel>
 </rss>
