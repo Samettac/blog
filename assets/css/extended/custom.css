@@ -76,21 +76,27 @@ body.dark {
 .entry-footer {
     color: var(--light3) !important;
 }
-/* Yazı Kartlarının Arka Planı ve Vurgusu (Profil kısmını hariç tuttuk) */
+/* --- YAZI KARTLARI (POST CARDS) ARKA PLAN VE ANİMASYON --- */
+
 .post-entry {
-    background: transparent !important; 
-    border: 1px solid transparent !important;
-    transition: border 0.3s ease;
+    background: #282828 !important; /* Gerçek Gruvbox Koyu Gri (dark0) kodu eklendi */
+    border: 1px solid #3c3836 !important; /* Gerçek Gruvbox Çerçeve (dark1) kodu eklendi */
+    border-radius: 10px !important;
+    padding: 24px !important;
+    margin-bottom: 25px !important;
+    transition: all 0.3s ease !important;
 }
 
 .post-entry:hover {
-    border-color: var(--bright-orange) !important; /* Sadece alt kısımdaki yazılar parlar */
+    border-color: var(--bright-orange) !important;
+    transform: translateY(-4px) !important;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4) !important;
 }
 
-/* Profil/Giriş kısmının çerçevesini tamamen yok et */
 .first-entry, .home-info {
     border: none !important;
     background: transparent !important;
+    box-shadow: none !important;
 }
 
 /* --- YAZI İÇİ BAŞLIKLAR (Obsidian Hiyerarşisi) --- */
