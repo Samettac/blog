@@ -55,7 +55,7 @@ Aynı zamanda Jeremy’nin sunduğu **Flashcard'ları (Anki)** ve Packet Tracer 
 **Hafta İçi Rutinim:**
 
 1. Önce çalışacağım konunun videosunu, mutlaka kendi notlarımı çıkararak izliyordum. _(Bu arada çıkardığım bu detaylı notları da ilerleyen yazılarda blogumda paylaşacağım!)_
-2. Video bittikten sonra AYD'nin o konuyla ilgili labını çözüyordum.
+2. Video bittikten sonra varsa AYD'nin o konuyla ilgili labını çözüyordum.
 3. Gün bitmeden veya en geç ertesi gün, Jeremy'nin o konuyla ilgili flashcard'larını çalışıyordum.
 
 
