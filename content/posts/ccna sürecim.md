@@ -33,7 +33,7 @@ Ayrıca Netacad üzerinden 3 kurluk CCNA eğitiminin ilk kurunu Akbank Siber Gü
 Gökhan Akın hocayı Akbank Siber Güvenlik Akademisinden de tanıdığım için bu eğitimi 2025'te satın aldım. Canlı derslere katılamadım ama ders kayıtları 1 yıl boyunca erişeme açıktı ve bu süreçte ana kaynağım olarak bu eğitimi kullandım. 
 
  Aynı zamanda kendi hazırladıkları lab dosyalarını bizimle paylaştıkları için farklı bir lab arayışı içinde de olmadım. 
- Örnek lab: ![](Pasted%20image%2020260506141511.png)
+ Örnek lab: ![](/images/Pasted%20image%2020260506141511.png)
 Not: Paylaşmak için izin almadığımdan sansürledim.
 
  Eğitim toplamda 3 kurdan oluşuyordu. Dersler genellikle 2 ile 2.5 saat arasında sürüyordu:
@@ -66,12 +66,12 @@ Hafta sonları genellikle tekrar yaptım. Hafta içi tuttuğum notları okuyup, 
 ## İstatistiklerle Çalışma Sürecim
 
 Çalışırken süre tutma gibi bir alışkanlığım var, o yüzden size fikir vermesi amacıyla çalışma sürelerimin grafiğini de paylaşmak istiyorum.
-![](Pasted%20image%2020260506141644.png)
+![](/images/Pasted%20image%2020260506141644.png)
 
 Bazı konularda harcadığım zamanlar:
-![](Pasted%20image%2020260506142151.png)
-![](Pasted%20image%2020260506142146.png)
-![](Pasted%20image%2020260506142236.png)
+![](/images/Pasted%20image%2020260506142151.png)
+![](/images/Pasted%20image%2020260506142146.png)
+![](/images/Pasted%20image%2020260506142236.png)
 
 Toplam 68 gün tam 179 saat çalışmışım. Araya üniversite finallerinin falan girmesiyle inişli çıkışlı dönemlerim oldu.
 Ancak en yüksek verimi aldığım dönem Mart ayı ve sonrasıydı. Bu dönemde çoğunlukla günlük yaklaşık 3 saat çalıştım. Bu şekilde neredeyse her gün 1 konuyu eriterek, sınava son 2 hafta kala tüm konuları bitirmeyi başardım.
@@ -83,7 +83,7 @@ Konular bitmeden 3 hafta sonraya sınav gününü almıştım. Konular bittikten
 Bu aşamada kullandığım kaynaklar:
 1. **O'Reilly Media:** O'Reilly Media üzerinde yeni bir hesap açtığınızda ücretsiz premium deneme sürümü veriyor. Bu sayede _Official Cert Guide_ ile birlikte gelen Cisco'nun kendi orijinal _Practice Test_'lerine ücretsiz erişim sağladım ve bu soruları çözdüm. 
 2. [LorenKociko/CCNA-Practice](https://github.com/LorenKociko/CCNA-Practice): Bu kaynak, netacad'daki soruları derleyip hem sınav simülasyonuna hem de normal çalışmaya izin veriyor. Sadece son 2 hafta değil, aslında eğitimdeki her kur bittikçe bu repodaki soruları çözerek ilerledim ve son haftalarda tekrar üzerinden geçtim.
-		![](Pasted%20image%2020260506143345.png)
+		![](/images/Pasted%20image%2020260506143345.png)
 3. Son 3 gün ise [examprepper](https://www.examprepper.co/exam/297/1) üzerinden çıkmış dump soruları çözdüm. Bu site examtopics gibi paralı vermiyor soruları. Ama pdf indirmek ücretli.
 ---
 

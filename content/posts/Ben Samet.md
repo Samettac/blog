@@ -24,14 +24,14 @@ Bu blogda öğrendiklerimi, projelerimi ve siber güvenlik alanındaki notlarım
 ## Sertifikalarım
 
 ### Cisco Certified Network Associate (CCNA)
-![](Pasted%20image%2020260506144850.png)
+![](/images/Pasted%20image%2020260506144850.png)
 - https://cp.certmetrics.com/cisco/en/public/verify/credential/7beecec9686e431abe1d2591be2c4a61
 
 ### Cisco Network Associate Cybersecurity (Eski adı: CyberOps Associate)
-![](Pasted%20image%2020260506145351.png)
+![](/images/Pasted%20image%2020260506145351.png)
 * https://cp.certmetrics.com/cisco/en/public/verify/credential/adfddb4355974998bbff28809c7b1ac7
 ### CompTIA Security+ (SY0-701)
-![](Pasted%20image%2020260506145430.png)
+![](/images/Pasted%20image%2020260506145430.png)
 * https://cp.certmetrics.com/CompTIA/en/public/verify/credential/MDYRQFGTS2Q1YRBJ
 ## Katıldığım Teknik Eğitimler
 
