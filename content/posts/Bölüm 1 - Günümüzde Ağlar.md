@@ -1,11 +1,12 @@
 ---
-title: Bölüm 1 - Günümüzde Ağlar
-date: 2026-04-24
-draft: true
-summary: günümüzdeki ağ yapıları, modelleri, cihazları hakkında.
+title: CCNA Notlarım | Bölüm 1 - Günümüzde Ağlar
+date: 2026-05-08
+draft: false
+summary: Günümüzdeki ağ yapıları, modelleri, cihazları hakkında.
 tags:
   - CCNA
-  - "#network"
+categories:
+  - Networking
 cover:
   image: <image path/url>
   alt: <alt text>
@@ -14,6 +15,10 @@ cover:
   hidden: true
 ---
 ---
+Herkese selam! Geçtiğimiz günlerde CCNA sertifikasını nasıl aldığımı ve çalışma sürecimi anlattığım ilk yazımda, süreç boyunca tuttuğum ders notlarımı da paylaşacağımın sözünü vermiştim. İşte o serinin ilk yazısıyla karşınızdayım.
+
+Bu ilk bölümde, bilgisayar ağları dünyasına ilk adımımızı atıyoruz. Verilerimiz internette nasıl dolaşıyor? Switch, router veya firewall tam olarak ne işe yarar? LAN ve WAN arasındaki fark nedir? Gibi soruları bu bölümde inceliyoruz.
+
 ## Ağın Gelişimi
 
 Dünyamızdaki dijital dönüşüm, ağ teknolojilerinin evrimiyle doğrudan ilişkilidir:

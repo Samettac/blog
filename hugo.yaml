@@ -104,10 +104,15 @@ menu:
       url: /archives/
       weight: 5
 
+    - identifier: categories
+      name: Kategoriler
+      url: /categories/
+      weight: 10
+
     - identifier: tags
       name: Etiketler
       url: /tags/
-      weight: 10
+      weight: 15
     
     - identifier: about
       name: Hakkımda

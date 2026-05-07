@@ -5,7 +5,7 @@ draft: false
 summary: CCNA Sertifikasını Nasıl Aldım? | Çalışma Serüvenim ve Kaynak Tavsiyeleri
 tags:
   - CCNA
-  - network
+categories: ["Networking"]
 cover:
   image: <image path/url>
   alt: <alt text>

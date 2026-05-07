@@ -190,3 +190,15 @@ strong {
     color: var(--neutral-yellow) !important;
     font-weight: 600 !important;
 }
+
+/* --- YAZI İÇİ GÖRSELLER (FOTOĞRAFLAR) --- */
+.post-content img {
+    display: block !important;
+    margin: 30px auto !important; /* Resmi sayfada tam ortaya hizalar ve alt/üst boşluk bırakır */
+    max-width: 75% !important; /* Resmin büyüklüğünü sayfa genişliğinin %75'i ile sınırlar */
+    max-height: 600px !important; /* Çok uzun dikey resimlerin ekranı kaplamasını engeller */
+    width: auto !important; /* En-boy oranının bozulmasını engeller */
+    border-radius: 8px !important; /* Köşeleri hafif yuvarlatır */
+    border: 1px solid #3c3836 !important; /* Gruvbox stili ince çerçeve */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important; /* Resmin altına şık bir gölge verir */
+}

@@ -1,0 +1,38 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
+{{- end -}}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- end -}}
+
+{{- $author := (.Param "author") -}}
+{{- if $author -}}
+    {{- if reflect.IsSlice $author -}}
+        {{- $scratch.Add "meta" (slice (delimit $author ", ")) -}}
+    {{- else -}}
+        {{- $scratch.Add "meta" (slice $author) -}}
+    {{- end -}}
+{{- end -}}
+
+{{- with .Params.categories -}}
+    {{- $cats := slice -}}
+    {{- range . -}}
+        {{- $cats = $cats | append (printf "<a href='/categories/%s/' style='color: var(--bright-aqua) !important; text-decoration: none;'>📁 %s</a>" (. | urlize) .) -}}
+    {{- end -}}
+    {{- $scratch.Add "meta" (slice (delimit $cats ", ")) -}}
+{{- end -}}
+
+{{- with .Params.tags -}}
+    {{- $tags := slice -}}
+    {{- range . -}}
+        {{- $tags = $tags | append (printf "<a href='/tags/%s/' style='color: var(--bright-yellow) !important; text-decoration: none;'>🏷️ %s</a>" (. | urlize) .) -}}
+    {{- end -}}
+    {{- $scratch.Add "meta" (slice (delimit $tags ", ")) -}}
+{{- end -}}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}

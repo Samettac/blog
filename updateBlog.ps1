@@ -96,62 +96,78 @@ try {
     exit 1
 }
 
-# Step 5: Add changes to Git
-Write-Host "Staging changes for Git..."
-$hasChanges = (git status --porcelain) -ne ""
-if (-not $hasChanges) {
-    Write-Host "No changes to stage."
-} else {
-    git add .
-}
+# --- GITHUB ONAY AŞAMASI ---
+Write-Host ""
+$deployChoice = Read-Host -Prompt "Değişiklikleri GitHub'a göndermek istiyor musun? (E/H)"
 
-# Step 6: Commit changes with a dynamic message
-$commitMessage = "New Blog Post on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
-$hasStagedChanges = (git diff --cached --name-only) -ne ""
-if (-not $hasStagedChanges) {
-    Write-Host "No changes to commit."
-} else {
-    Write-Host "Committing changes..."
-    git commit -m "$commitMessage"
-}
+if ($deployChoice -match "^[EeYy]") {
+    # Kullanıcı Evet (E veya Y) dediyse işlemlere devam et
+    
+    # Step 5: Add changes to Git
+    Write-Host "Staging changes for Git..."
+    $hasChanges = (git status --porcelain) -ne ""
+    if (-not $hasChanges) {
+        Write-Host "No changes to stage."
+    } else {
+        git add .
+    }
 
-# Step 7: Push all changes to the main branch (master yerine main yaptık)
-Write-Host "Deploying to GitHub Main branch..."
-try {
-    git push origin main
-} catch {
-    Write-Error "Failed to push to Main branch."
-    exit 1
-}
+    # Step 6: Commit changes with a dynamic message
+    $commitMessage = "New Blog Post on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+    $hasStagedChanges = (git diff --cached --name-only) -ne ""
+    if (-not $hasStagedChanges) {
+        Write-Host "No changes to commit."
+    } else {
+        Write-Host "Committing changes..."
+        git commit -m "$commitMessage"
+    }
 
-# Step 8: Push the public folder to the hosting branch using subtree split and force push
-Write-Host "Deploying to GitHub hosting..."
+    # Step 7: Push all changes to the main branch
+    Write-Host "Deploying to GitHub Main branch..."
+    try {
+        git push origin main
+    } catch {
+        Write-Error "Failed to push to Main branch."
+        exit 1
+    }
 
-# Check if the temporary branch exists and delete it
-$branchExists = git branch --list "hosting-deploy"
-if ($branchExists) {
+    # Step 8: Push the public folder to the hosting branch using subtree split and force push
+    Write-Host "Deploying to GitHub hosting..."
+
+    # Check if the temporary branch exists and delete it
+    $branchExists = git branch --list "hosting-deploy"
+    if ($branchExists) {
+        git branch -D hosting-deploy
+    }
+
+    # Perform subtree split
+    try {
+        git subtree split --prefix public -b hosting-deploy
+    } catch {
+        Write-Error "Subtree split failed."
+        exit 1
+    }
+
+    # Push to hosting branch with force
+    try {
+        git push origin hosting-deploy:hosting --force
+    } catch {
+        Write-Error "Failed to push to hosting branch."
+        git branch -D hosting-deploy
+        exit 1
+    }
+
+    # Delete the temporary branch
     git branch -D hosting-deploy
+
+    Write-Host "All done! Site synced, processed, committed, built, and deployed."
+} else {
+    # Kullanıcı Hayır (H) dediyse
+    Write-Host "====================================================="
+    Write-Host "GitHub'a gönderim İPTAL EDİLDİ."
+    Write-Host "Dosyalar kopyalandı ve local site güncellendi."
+    Write-Host "Test etmek için ayrı bir terminalde 'hugo server' komutunu çalıştırabilirsin."
+    Write-Host "====================================================="
 }
 
-# Perform subtree split
-try {
-    git subtree split --prefix public -b hosting-deploy
-} catch {
-    Write-Error "Subtree split failed."
-    exit 1
-}
-
-# Push to hosting branch with force
-try {
-    git push origin hosting-deploy:hosting --force
-} catch {
-    Write-Error "Failed to push to hosting branch."
-    git branch -D hosting-deploy
-    exit 1
-}
-
-# Delete the temporary branch
-git branch -D hosting-deploy
-
-Write-Host "All done! Site synced, processed, committed, built, and deployed."
 Read-Host -Prompt "Press Enter to exit"

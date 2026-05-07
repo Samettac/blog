@@ -1,6 +1,6 @@
 ---
-title: Bölüm 2 - Protokoller ve Modeller
-date: 2026-04-25
+title: CCNA Notlarım | Bölüm 2 - Protokoller ve Modeller
+date: 2026-05-09
 draft: true
 summary: Protokoller, OSI ve TCP/IP Modelleri.
 tags:
@@ -9,6 +9,8 @@ tags:
   - tcp-ip
   - protokol
   - encapsulation
+categories:
+  - Networking
 cover:
   image: <image path/url>
   alt: <alt text>
