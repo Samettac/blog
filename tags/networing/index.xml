@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Networing on Blog | Samet Taşcı</title>
+    <link>http://localhost:1313/tags/networing/</link>
+    <description>Recent content in Networing on Blog | Samet Taşcı</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>tr-tr</language>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/networing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bölüm 1 - Günümüzde Ağlar</title>
+      <link>http://localhost:1313/posts/b%C3%B6l%C3%BCm-1---g%C3%BCn%C3%BCm%C3%BCzde-a%C4%9Flar/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/b%C3%B6l%C3%BCm-1---g%C3%BCn%C3%BCm%C3%BCzde-a%C4%9Flar/</guid>
+      <description>günümüzdeki ağ yapıları, modelleri, cihazları hakkında.</description>
+    </item>
+  </channel>
+</rss>
