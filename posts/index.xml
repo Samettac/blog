@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Blog | Samet Taşcı</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>tr-tr</language>
-    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.samettasci.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CCNA Notlarım | Bölüm 2 - Protokoller ve Modeller</title>
+      <link>https://blog.samettasci.me/posts/bolum-2---protokoller-ve-modeller/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.samettasci.me/posts/bolum-2---protokoller-ve-modeller/</guid>
+      <description>Cihazların birbiriyle nasıl haberleştiğini, OSI ve TCP/IP modellerinin mantığını ve verinin paketlenme sürecini inceliyoruz. Ayrıca iletişim kurallarını belirleyen standart organizasyonlarına da kısaca değiniyoruz.</description>
+    </item>
     <item>
       <title>CCNA Notlarım | Bölüm 1 - Günümüzde Ağlar</title>
       <link>https://blog.samettasci.me/posts/bolum-1---gunumuzde-aglar/</link>
