@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Protokol on Blog | Samet Taşcı</title>
-    <link>http://localhost:1313/tags/protokol/</link>
+    <link>https://blog.samettasci.me/tags/protokol/</link>
     <description>Recent content in Protokol on Blog | Samet Taşcı</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>tr-tr</language>
-    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/protokol/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.samettasci.me/tags/protokol/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCNA Notlarım | Bölüm 2 - Protokoller ve Modeller</title>
-      <link>http://localhost:1313/posts/b%C3%B6l%C3%BCm-2---protokoller-ve-modeller/</link>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/b%C3%B6l%C3%BCm-2---protokoller-ve-modeller/</guid>
-      <description>Protokoller, OSI ve TCP/IP Modelleri.</description>
+      <link>https://blog.samettasci.me/posts/bolum-2---protokoller-ve-modeller/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.samettasci.me/posts/bolum-2---protokoller-ve-modeller/</guid>
+      <description>Cihazların birbiriyle nasıl haberleştiğini, OSI ve TCP/IP modellerinin mantığını ve verinin paketlenme sürecini inceliyoruz. Ayrıca iletişim kurallarını belirleyen standart organizasyonlarına da kısaca değiniyoruz.</description>
     </item>
   </channel>
 </rss>

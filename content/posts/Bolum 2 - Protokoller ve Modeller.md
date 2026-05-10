@@ -1,8 +1,8 @@
 ---
 title: CCNA Notlarım | Bölüm 2 - Protokoller ve Modeller
-date: 2026-05-09
-draft: true
-summary: Protokoller, OSI ve TCP/IP Modelleri.
+date: 2026-05-10
+draft: false
+summary: Cihazların birbiriyle nasıl haberleştiğini, OSI ve TCP/IP modellerinin mantığını ve verinin paketlenme sürecini inceliyoruz. Ayrıca iletişim kurallarını belirleyen standart organizasyonlarına da kısaca değiniyoruz.
 tags:
   - CCNA
   - osi
@@ -19,6 +19,11 @@ cover:
   hidden: true
 ---
 ---
+Herkese selam! Ağ dünyasının temellerini attığımız [Bölüm 1'in](/posts/bolum-1---gunumuzde-aglar/) ardından serinin ikinci yazısıyla karşınızdayım.
+
+Bu bölümde cihazların kendi aralarında nasıl anlaştığına bakacağız. İletişim kurallarını, yani protokolleri kim belirliyor? OSI ve TCP/IP modelleri tam olarak ne işe yarıyor? Verilerimiz yola çıkmadan önce adım adım nasıl paketleniyor (encapsulation)? Kısaca bu konuları inceliyoruz. İyi okumalar!
+
+
 ## Ağ İletişiminin Temelleri
 Ağ haberleşmesi, tıpkı mektup haberleşmesine benzer. 
 İletişimin gerçekleşebilmesi için temel olarak 3 unsura ihtiyaç vardır:
