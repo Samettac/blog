@@ -5,10 +5,6 @@ draft: false
 summary: Cihazların birbiriyle nasıl haberleştiğini, OSI ve TCP/IP modellerinin mantığını ve verinin paketlenme sürecini inceliyoruz. Ayrıca iletişim kurallarını belirleyen standart organizasyonlarına da kısaca değiniyoruz.
 tags:
   - CCNA
-  - osi
-  - tcp-ip
-  - protokol
-  - encapsulation
 categories:
   - Networking
 cover:
@@ -19,7 +15,7 @@ cover:
   hidden: true
 ---
 ---
-Herkese selam! Ağ dünyasının temellerini attığımız [Bölüm 1'in](/posts/bolum-1---gunumuzde-aglar/) ardından serinin ikinci yazısıyla karşınızdayım.
+Herkese selam. Ağ dünyasının temellerini attığımız [Bölüm 1'in](/posts/bolum-1---gunumuzde-aglar/) ardından serinin ikinci yazısıyla karşınızdayım.
 
 Bu bölümde cihazların kendi aralarında nasıl anlaştığına bakacağız. İletişim kurallarını, yani protokolleri kim belirliyor? OSI ve TCP/IP modelleri tam olarak ne işe yarıyor? Verilerimiz yola çıkmadan önce adım adım nasıl paketleniyor (encapsulation)? Kısaca bu konuları inceliyoruz. İyi okumalar!
 
@@ -226,8 +222,3 @@ Açık standartlar; birlikte çalışabilirliği, rekabeti ve yeniliği teşvik 
 	* Örneğin: EIA/TIA-568A, 568B
 * **ITU-T:** 
 	* DSL standartlarını belirler.
-
-
-## Kaynaklar
-- Cisco Netacad
-- Ağ Yöneticileri Derneği (**AYD**)

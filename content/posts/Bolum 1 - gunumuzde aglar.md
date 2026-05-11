@@ -150,12 +150,3 @@ Ağ tasarımında profesyonel standartları sağlamak için şu dört özellik k
 4. **Güvenlik (Security):** 
 	- Verinin Gizliliği (Confidentiality), Bütünlüğü (Integrity) ve Erişilebilirliğinin (Availability) korunması (CIA Triad).
 
-
-## Kaynaklar
-- Cisco Netacad
-- Ağ Yöneticileri Derneği (**AYD**)
-
-
-
-
-
