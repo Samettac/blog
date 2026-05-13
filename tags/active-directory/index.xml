@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Home Lab on Blog | Samet Taşcı</title>
-    <link>https://blog.samettasci.me/categories/home-lab/</link>
-    <description>Recent content in Home Lab on Blog | Samet Taşcı</description>
+    <title>Active-Directory on Blog | Samet Taşcı</title>
+    <link>https://blog.samettasci.me/tags/active-directory/</link>
+    <description>Recent content in Active-Directory on Blog | Samet Taşcı</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>tr-tr</language>
     <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.samettasci.me/categories/home-lab/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.samettasci.me/tags/active-directory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adım Adım Windows 10&#39;u Domain&#39;e Ekleme ve AD Kullanıcısı Oluşturma</title>
       <link>https://blog.samettasci.me/posts/windowsu-adye-ekleme/</link>
