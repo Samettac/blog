@@ -15,7 +15,7 @@ cover:
   hidden: true
 ---
 ---
-Herkese selam! Geçtiğimiz günlerde CCNA sertifikasını nasıl aldığımı ve çalışma sürecimi anlattığım ilk yazımda, süreç boyunca tuttuğum ders notlarımı da paylaşacağımın sözünü vermiştim. İşte o serinin ilk yazısıyla karşınızdayım.
+Herkese selam. Geçtiğimiz günlerde CCNA sertifikasını nasıl aldığımı ve çalışma sürecimi anlattığım ilk yazımda, süreç boyunca tuttuğum ders notlarımı da paylaşacağımın sözünü vermiştim. İşte o serinin ilk yazısıyla karşınızdayım.
 
 Bu ilk bölümde, bilgisayar ağları dünyasına ilk adımımızı atıyoruz. Verilerimiz internette nasıl dolaşıyor? Switch, router veya firewall tam olarak ne işe yarar? LAN ve WAN arasındaki fark nedir? Gibi soruları bu bölümde inceliyoruz.
 

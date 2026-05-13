@@ -16,7 +16,7 @@ cover:
 ---
 ---
 
-Merhaba! Bu yazımda, sıfırdan Windows Server 2022 kurulumunu ve temel yapılandırma adımlarını adım adım anlatıyorum.
+Merhaba. Bu yazımda, sıfırdan Windows Server 2022 kurulumunu ve temel yapılandırma adımlarını adım adım anlatıyorum.
 
 VMware üzerinde sanal makinemizi oluşturduktan sonra sunucumuzu bir Domain Controller'a dönüştürerek Active Directory (AD DS), DNS ve Web Server (IIS) rollerini kuracağız. Kendi test ortamınızı kurmak için hazırsanız, hemen başlayalım!
 
@@ -164,9 +164,9 @@ Server Managerda ise kurduğum özellikler gelmiş.
 
 ## Sonuç
 
-Tebrikler! kurulumu başarıyla tamamladık. Artık kullanıcıları, grupları ve bilgisayarları merkezi olarak yönetebileceğimiz bir Domain Controller sunucusuna sahibiz.
+Kurulumu başarıyla tamamladık. Artık kullanıcıları, grupları ve bilgisayarları merkezi olarak yönetebileceğimiz bir Domain Controller sunucusuna sahibiz.
 
-Gelecek yazılarda görüşmek üzere!
+Gelecek yazılarda görüşmek üzere.
 
 
 

@@ -15,7 +15,7 @@ cover:
   hidden: true
 ---
 ---
-Selam. [Bir önceki yazımızda](/posts/windows-server-2022-ve-ad-kurma/) Windows Server kurulumunu ve Active Directory yapılandırmasını tamamlamıştık. Şimdi sıra bu yapıya bir Windows Client cihazı dahil etmekte.
+Selam. [Bir önceki yazımda](/posts/windows-server-2022-ve-ad-kurma/) Windows Server kurulumunu ve Active Directory yapılandırmasını tamamlamıştık. Şimdi sıra bu yapıya bir Windows Client cihazı dahil etmekte.
 
 Bu rehberde, Domain Controller (DC) sunucumuz üzerinde DNS Reverse Lookup Zone oluşturarak başlayacağız. Ardından, Windows client makinemizin DNS ayarlarını yapılandırıp , cihazımızı domain'e bağlayacağız. Ayrıca bir de Kullanıcı hesabı oluşturacağız.
 İyi Okumalar.
@@ -132,5 +132,5 @@ Her şey tamamlandı artık windows makineme domaindeki yeni oluşturduğum kull
 
 Bilgisayarımızın adını değiştirdik , domain'e başarıyla dahil ettik ve Active Directory üzerinde oluşturduğumuz "Domain Admins" yetkisine sahip kullanıcımızla oturum açtık. Artık client makinemiz tamamen Domain Controller'ın yönetimi altında.
 
-Yazı içerisinde de belirttiğim gibi, bu yapıda subnet'ler arası iletişimi sağlayan bir Fortigate firewall bulunuyor. İlerleyen yazılarımda bu Fortigate yapılandırmasının detaylarına, kurallarımıza ve güvenlik politikalarına da değineceğim. Bir sonraki rehberde görüşmek üzere!
+Yazı içerisinde de belirttiğim gibi, bu yapıda subnet'ler arası iletişimi sağlayan bir Fortigate firewall bulunuyor. İlerleyen yazılarımda bu Fortigate yapılandırmasının detaylarına, kurallarımıza ve güvenlik politikalarına da değineceğim. Bir sonraki rehberde görüşmek üzere.
 
