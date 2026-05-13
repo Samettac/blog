@@ -6,8 +6,15 @@
     <description>Recent content on Blog | Samet Taşcı</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>tr-tr</language>
-    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.samettasci.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adım Adım Windows 10&#39;u Domain&#39;e Ekleme ve AD Kullanıcısı Oluşturma</title>
+      <link>https://blog.samettasci.me/posts/windowsu-adye-ekleme/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.samettasci.me/posts/windowsu-adye-ekleme/</guid>
+      <description>Bu yazıda, DNS yapılandırmasını tamamlayarak bir Windows cihazını Active Directory domain&amp;rsquo;ine nasıl dahil edeceğimizi adım adım inceliyoruz. Ayrıca AD üzerinde yeni bir kullanıcı oluşturup yetkilendirerek, bu hesapla bilgisayarımızda nasıl oturum açacağımızı da detaylarıyla görebilirsiniz.</description>
+    </item>
     <item>
       <title>CCNA Notlarım | Bölüm 3 - Fiziksel Katman (Layer 1)</title>
       <link>https://blog.samettasci.me/posts/bolum-3-l1-fiziksel-katman/</link>

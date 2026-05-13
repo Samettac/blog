@@ -4,8 +4,9 @@ date: 2026-05-07
 draft: false
 summary: Vmware'da Windows Server 2022 Kurulumu ve Active Directory Yapılandırması
 tags:
+  - Active-Directory
 categories:
-  - Lab
+  - Home Lab
 cover:
   image: <image path/url>
   alt: <alt text>
