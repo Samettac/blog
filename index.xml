@@ -6,8 +6,15 @@
     <description>Recent content on Blog | Samet Taşcı</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>tr-tr</language>
-    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.samettasci.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CCNA Notlarım | Bölüm 4 - L2 Data Link Katmanı: MAC Algoritmaları, Topolojiler ve Frame Yapısı</title>
+      <link>https://blog.samettasci.me/posts/bolum4-l2-data-link/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.samettasci.me/posts/bolum4-l2-data-link/</guid>
+      <description>Data Link katmanının işlevlerini ve ağ topolojilerini inceliyoruz. MAC algoritmaları (CSMA/CD, CSMA/CA) ve L2 çerçeve (frame) yapısı hakkında temel bilgileri içeriyor.</description>
+    </item>
     <item>
       <title>Adım Adım Windows 10&#39;u Domain&#39;e Ekleme ve AD Kullanıcısı Oluşturma</title>
       <link>https://blog.samettasci.me/posts/windowsu-adye-ekleme/</link>
